@@ -88,11 +88,11 @@ h2 {
     height: 600px;
     width: 1200px;
     margin: 0 auto;
-    border: solid red;
+    /* border: solid red; */
 }
 
 .locations-container {
-    border: solid red;
+    /* border: solid red; */
     /* height: 500px; */
     width: auto;
     display: flex;
@@ -102,9 +102,10 @@ h2 {
 }
 
 .heading {
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .locations {
@@ -113,4 +114,25 @@ h2 {
     width: 300px;
     margin: 0 20px;
     background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.cont3 {
+    height: 200px;
+    /* border: solid red; */
+    width: 1000px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
 }
